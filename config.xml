@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
   <fullName>admin</fullName>
+  <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAw/hXP7kgLWN5siAEUHKfDe3wbnztce/qpzvf2nXHCUiRly2lSaJ3jMKuiflpAgoIe5tPRUcAcUxzWgiuDTGb8Xw==}</apiToken>
+      <apiToken>{AQAAABAAAAAwGXdA9XAi6ICtTArDHuPCD5/5bfMNfq4DiccXiKi+grbDU8dpOVlwVBBJgYXz4mbX8RGjpHeGPPXPQvs9Wp4N9A==}</apiToken>
     </jenkins.security.ApiTokenProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1626574490086</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
     <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
@@ -19,17 +27,14 @@
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$/gxf59SRXTIPINyDoycOK.x0sEZhEH7wyGWMREIuZhWL9QNTbsT6W</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$nFgjcp4Ozt86cZs8KobrhuOR3abunAY0onTU8qB.gRuhClnaHcCkW</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1626556136580</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
